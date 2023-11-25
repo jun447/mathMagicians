@@ -11,7 +11,7 @@ function Quotes() {
     const fetchData = async () => {
       setIsLoading(true);
       try {
-        const res = await fetch('https://api.api-ninjas.com/v1/quotes?category=happiness', {
+        const res = await fetch('https://api.api-ninjas.com/v1/quotes?category=success', {
           method: 'GET',
           headers: {
             'X-Api-Key': '9bYtZY3MBF9CLTvvk+V77Q==GQ36dBup073uUX6i',
