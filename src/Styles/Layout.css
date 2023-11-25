@@ -1,0 +1,25 @@
+.title {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: large;
+}
+.nav-link:visited {
+  color: rgb(187, 108, 42);
+}
+.nav-link:active {
+  color: rgb(147, 99, 99);
+}
+
+.nav-link:hover {
+  color: rgb(128, 55, 55);
+}
+
+.active {
+  color: rgb(209, 209, 209) !important;
+}
